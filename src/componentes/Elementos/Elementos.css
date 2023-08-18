@@ -1,0 +1,19 @@
+.Elementos{
+    margin: 24px 0;
+}
+
+.Elementos label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.Elementos input{
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    border-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 55px 20px;
+    box-sizing: border-box;
+}

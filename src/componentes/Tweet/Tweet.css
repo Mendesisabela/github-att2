@@ -1,0 +1,18 @@
+.tweet{ 
+    text-align: center;
+    padding: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.tweet h3{
+    font-size: 32px;    
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.tweet .caixas{
+    display: inline-grid;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,70 @@
+.caixa{
+    width: 500px;
+    padding-top: 20px;
+    border-color: #ffffff;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+
+@keyframes move{
+    from{
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.caixa .topo{
+    background-color: rgb(22, 21, 21);
+    border: solid 1px rgb(255, 255, 255);
+    border-bottom: none;
+}
+
+
+.caixa img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -1px;
+    left: -185px;
+    top: 10px;
+}
+
+.caixa b{
+    position: relative;
+    bottom: 11px;
+    left: -170px;
+    top: -5px;
+}
+
+.caixa .final{
+    word-wrap: break-word;
+    text-align: justify;
+    padding: 0 40px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: rgb(22, 21, 21);
+    border: solid 1px rgb(255, 255, 255);
+    border-top: none;
+}
+
+.caixa .final h4{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+}
+
+.caixa .final h5{
+    font-size: 18px;
+    line-height: 22px;
+    color: #faf6f6;
+    padding: 0 16px;
+}
